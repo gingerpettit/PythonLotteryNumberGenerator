@@ -4,10 +4,14 @@ import random
 
 #Define the main function
 def main():
-    generated_lottery_numbers = [0, 0, 0, 0, 0, 0, 0] #Define list
-    for index in range(7):   #Set the range for the list
-        generated_lottery_numbers[index] = random.randint(0, 9) #Call the random function to input random number
+    #Define list
+    generated_lottery_numbers = [0, 0, 0, 0, 0, 0, 0] 
+    #Set the range for the list
+    for index in range(7):   
+        #Call the random function to input random numbers
+        generated_lottery_numbers[index] = random.randint(0, 9) 
     for index in generated_lottery_numbers:
-        print(index,end='')  #Print the randomly generated numbers
+        #Printing the randomly generated number
+        print(index,end='')  
 
 main()
