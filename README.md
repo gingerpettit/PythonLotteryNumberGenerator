@@ -1,2 +1,2 @@
 # PythonLotteryNumberGenerator
-Lottery Number Generate
+Lottery Number Generator
